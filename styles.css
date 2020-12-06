@@ -1,0 +1,158 @@
+/* Media Query */
+.Container
+{
+  width: 100%;
+}
+  /* desktop */
+@media (min-width: 992px)
+{
+  .col-lg-3
+  {
+    width: 33.33%;
+  }
+}
+  /* tablet */
+@media (max-width: 991px) and (min-width: 768px)
+{
+  .col-md-6
+  {
+    width: 50%;
+  }
+  .col-md-12
+  {
+    width: 100%;
+  }
+}
+  /* mobile */
+@media (max-width: 767px)
+{
+  .col-s-12
+  {
+    width:100% !important;
+  }
+}
+
+
+/* Main Header */
+.Our-menu
+{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+
+/* Menu Items */
+#Menu-items
+{
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+.Container
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+
+/* Chicken */
+.Chicken
+{
+  height: 200px;
+  width: 30%;
+  border-width: 1px;
+  border-color: #000000;
+  border: solid;
+  box-sizing: border-box;
+  margin: 20px;
+  background-color: #C7AD7F;
+  flex-grow: 100;
+}
+
+.Chicken-header
+{
+  text-align: center;
+  border-width: 1px;
+  border-color: #000000;
+  border: solid;
+  padding: 5px;
+  height: 25px;
+  width: 100px;
+  margin: -2px -2px 0px 251px;
+  background-color: #83D0FF;
+  float: right;
+}
+
+.Chicken-text
+{
+  padding:50px 10px 10px;
+}
+
+
+
+/* Beef */
+.Beef
+{
+  height: 200px;
+  width: 30%;
+  border-width: 1px;
+  border-color: #000000;
+  border: solid;
+  box-sizing: border-box;
+  margin: 20px;
+  background-color: #C7AD7F;
+  flex-grow: 100;
+}
+
+.Beef-header
+{
+  text-align: center;
+  border-width: 1px;
+  border-color: #000000;
+  border: solid;
+  padding: 5px;
+  height: 25px;
+  width: 100px;
+  margin: -2px -2px 0px 251px;
+  background-color: pink;
+  float:right;
+}
+
+.Beef-text
+{
+  padding: 50px 10px 10px;
+}
+
+/* Sushi */
+.Sushi
+{
+  height: 200px;
+  width: 30%;
+  border-width: 1px;
+  border-color: #000000;
+  border: solid;
+  box-sizing: border-box;
+  margin: 20px;
+  background-color: #C7AD7F;
+  flex-grow: 100;
+}
+
+.Sushi-header
+{
+  text-align: center;
+  border-width: 1px;
+  border-color: #000000;
+  border: solid;
+  padding: 5px;
+  height: 25px;
+  width: 100px;
+  margin: -2px -2px 0px 251px;
+  background-color: #FBCF67;
+  float: right;
+}
+
+.Sushi-text
+{
+  padding: 50px 10px 10px;
+}
